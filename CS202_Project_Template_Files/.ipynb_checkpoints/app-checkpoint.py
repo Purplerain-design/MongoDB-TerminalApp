@@ -5,9 +5,9 @@ import pprint
 # -------------------------
 # Database connection
 # -------------------------
-client = MongoClient( "mongodb+srv://g24m4379_db_user:3Aq81i7mISjgTwNh@cspracproject.ypxyrm5.mongodb.net/?retryWrites=true&w=majority&appName=CSPracProject")  # adjust if using Atlas
-db = client["university_db"]      # replace with your chosen DB name
-collection = db["students"]    # example collection
+client = MongoClient("")  # adjust if using Atlas
+db = client["university_db"]     
+collection = db["students"]  
 
 pp = pprint.PrettyPrinter(indent=2)#pretty printer for displaying documents in a readable format
 
