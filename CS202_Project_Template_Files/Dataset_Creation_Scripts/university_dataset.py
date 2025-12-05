@@ -7,7 +7,7 @@ from bson.objectid import ObjectId
 # --- MongoDB Connection ---
 # Students, insert your MongoDB connection URI here
 # For example: "mongodb+srv://<username>:<password>@<cluster-url>/<dbname>?retryWrites=true&w=majority"
-MONGO_URI = "mongodb+srv://g24m4379_db_user:3Aq81i7mISjgTwNh@cspracproject.ypxyrm5.mongodb.net/?retryWrites=true&w=majority&appName=CSPracProject" #add your uri here for your cluster
+MONGO_URI = "" #add your uri here for your cluster
 DB_NAME = "university_db"
 
 client = MongoClient(MONGO_URI)
